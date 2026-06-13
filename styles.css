@@ -210,3 +210,69 @@ nav a {
     border: 2px solid #E9B8B0;
     align-self: center;
 }
+
+@media (max-width: 768px) {
+    .cake-img {
+        width: 100%;
+        top: 0;
+    }
+
+    .hero {
+        min-height: 50vh;
+        align-items: flex-end;
+        padding-bottom: 40px;
+    }
+
+    .hero-text {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0;
+        transform: none;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .sweet-spot {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        font-size: 13px;
+    }
+
+    nav {
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 11px;
+    }
+
+    #order-online {
+        padding: 6px 10px;
+    }
+
+    .mainlogo {
+        width: 120px;
+    }
+
+    .community-text {
+        top: 30%;
+        left: 3%;
+        max-width: 280px;
+    }
+
+    .community-text h2 {
+        font-size: 22px;
+    }
+
+    .made-fresh-content {
+        flex-direction: column;
+        top: 40%;
+        left: 35%;
+        gap: 20px;
+    }
+}
