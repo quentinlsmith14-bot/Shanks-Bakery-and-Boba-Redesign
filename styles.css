@@ -211,17 +211,136 @@ nav a {
     align-self: center;
 }
 
+/* ── MOBILE / RESPONSIVE ── */
 @media (max-width: 768px) {
-
-    .cake-img {
-        width: 100%;
-        top: 0;
-    }
-
+    /* Header */
     header {
         padding: 12px 16px;
     }
 
+    .mainlogo {
+        width: 140px;
+    }
+
+    nav {
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    #order-online {
+        padding: 8px 14px;
+        border-radius: 18px;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: auto;
+        padding: 56px 0 40px;
+        align-items: flex-start;
+    }
+
+    .hero-text {
+        margin-top: 0;
+        margin-left: 0;
+        transform: none;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .hero-text h1 {
+        font-size: 34px;
+        line-height: 1.05;
+    }
+
+    .sweet-spot {
+        font-size: 40px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-top: 14px;
+    }
+
+    .hero-buttons {
+        margin-top: 18px;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .button-one,
+    .button-two {
+        padding: 10px 16px;
+        border-radius: 18px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* Cake overlay */
+    .cake-img {
+        width: 140%;
+        opacity: 0.35;
+        pointer-events: none;
+    }
+
+    /* Community */
+    .community {
+        margin-top: 0;
+    }
+
+    .community-text {
+        position: static;
+        max-width: none;
+        padding: 22px 16px;
+        gap: 12px;
+    }
+
+    .community-text h2 {
+        font-size: 26px;
+    }
+
+    .community-text p {
+        font-size: 14px;
+    }
+
+    /* Made fresh */
+    .made-fresh {
+        margin-top: 0;
+    }
+
+    .made-fresh-content {
+        position: static;
+        padding: 26px 16px 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .menu-item {
+        text-align: left;
+    }
+
+    .menu-item h6 {
+        font-size: 15px;
+    }
+
+    .menu-item p {
+        font-size: 13px;
+    }
+
+    .learn-more {
+        align-self: flex-start;
+        font-size: 12px;
+        padding: 8px 14px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 420px) {
     .mainlogo {
         width: 100px;
     }
@@ -244,11 +363,7 @@ nav a {
     }
 
     .hero-text {
-        margin-left: 0;
-        margin-top: 0;
-        transform: none;
         padding: 20px;
-        width: 100%;
     }
 
     .hero-text h1 {
@@ -268,15 +383,8 @@ nav a {
         gap: 10px;
     }
 
-    .community {
-        margin-top: 0;
-    }
-
     .community-text {
-        top: 25%;
-        left: 3%;
-        max-width: 200px;
-        gap: 8px;
+        padding: 18px 16px;
     }
 
     .community-text h2 {
@@ -287,23 +395,15 @@ nav a {
         font-size: 11px;
     }
 
-    .made-fresh {
-        margin-top: 0;
-    }
-
-    .made-fresh-content {
-        flex-direction: column;
-        top: 45%;
-        left: 30%;
-        right: 2%;
-        gap: 12px;
-    }
-
     .menu-item h6 {
         font-size: 12px;
     }
 
     .menu-item p {
         font-size: 10px;
+    }
+
+    .cake-img {
+        width: 100%;
     }
 }
