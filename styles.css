@@ -237,34 +237,25 @@ nav a {
     }
 
     /* Hero */
-    .hero {
-        min-height: auto;
-        padding: 56px 0 40px;
-        align-items: flex-start;
-    }
+.hero {
+  min-height: 100vh;
+  background-image: url('test_cake.png');
+  background-size: cover;
+  background-position: right center;
+  display: flex;
+  align-items: center;
+}
 
-    .hero-text {
-        margin-top: 0;
-        margin-left: 0;
-        transform: none;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
+.hero-text {
+  max-width: 600px;
+  padding: 60px;
+}
 
-    .hero-text h1 {
-        font-size: 34px;
-        line-height: 1.05;
-    }
 
     .sweet-spot {
         font-size: 40px;
     }
 
-    .hero-text p {
-        font-size: 14px;
-        line-height: 1.6;
-        margin-top: 14px;
-    }
 
     .hero-buttons {
         margin-top: 18px;
@@ -357,26 +348,26 @@ nav a {
         padding: 6px 10px;
     }
 
-    .hero {
-        min-height: 60vh;
-        align-items: flex-end;
-    }
+.hero {
+  min-height: 100vh;
+  background-image: url('test_cake.png');
+  background-size: cover;
+  background-position: right center;
+  display: flex;
+  align-items: center;
+}
 
-    .hero-text {
-        padding: 20px;
-    }
+.hero-text {
+  max-width: 600px;
+  padding: 60px;
+}
 
-    .hero-text h1 {
-        font-size: 24px;
-    }
+
 
     .sweet-spot {
         font-size: 28px;
     }
 
-    .hero-text p {
-        font-size: 12px;
-    }
 
     .hero-buttons {
         flex-direction: column;
